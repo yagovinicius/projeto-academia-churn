@@ -78,38 +78,19 @@ Sistema para monitoramento de frequência de alunos e previsão de churn em acad
   - aluno / aluno
 - **No Swagger:** Clique em "Authorize", preencha apenas username e password, e clique em Authorize.
 
-## Como cumprir os requisitos do recrutador
+## Requisitos Atendidos
 
-1. **API REST com endpoints:**
-   - Todos os endpoints pedidos estão implementados e documentados no Swagger.
-2. **Banco de dados PostgreSQL:**
-   - Estrutura criada automaticamente (ou via script/init_db.py).
-3. **Processamento assíncrono com RabbitMQ:**
-   - Workers e producers implementados, basta rodar os scripts indicados.
-4. **Modelo de IA para previsão de churn:**
-   - Notebook em `ml/churn.ipynb` e integração com a API.
-5. **Popular banco:**
-   - Use `faker-academia.py` para gerar dados realistas.
-6. **Testes automatizados:**
-   - Execute `pytest` ou `python tests/test_full_flow.py`.
-7. **Documentação:**
-   - Swagger disponível em `/docs`.
-8. **Autenticação JWT:**
-   - Implementada para admin e aluno.
-9. **Docker:**
-   - Projeto pronto para rodar com `docker-compose up --build`.
+- API REST completa e documentada
+- Banco de dados PostgreSQL integrado
+- Processamento assíncrono com RabbitMQ
+- Modelo de IA para previsão de churn
+- Script para popular o banco com dados realistas
+- Testes automatizados
+- Documentação via Swagger
+- Autenticação JWT (admin e aluno)
+- Pronto para Docker
 
-## Passos para entrega
-1. Faça um fork do repositório.
-2. Suba seu código e scripts.
-3. Certifique-se de que o README está atualizado.
-4. Crie um Pull Request para o repositório original.
-5. Envie um e-mail para o recrutador com:
-   - Seu currículo
-   - Link do Pull Request
-   - Informações de contato
+## Observações
 
----
-
-**Dúvidas?** Consulte a documentação da API ou entre em contato.
->>>>>>> 455b3a0 (Entrega do teste - projeto academia churn)
+O projeto está pronto para ser clonado e executado conforme as instruções acima.
+Para dúvidas ou sugestões, consulte a documentação da API.
