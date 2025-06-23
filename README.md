@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# projeto-academia-churn
-=======
 # Projeto Academia Churn
 
 Sistema para monitoramento de frequência de alunos e previsão de churn em academias.
